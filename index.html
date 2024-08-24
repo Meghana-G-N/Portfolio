@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/88411a0144.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hello, <br>I'm <span>Meghana</span><br></h1>
+                <p>A Front-end Web Developer</p>
+            </div>
+
+        </div>
+        <img src="image.png" alt="Your Image" class="header-right-img">
+        </div>
+
+        </div>
+
+        <hr>
+<!------------about------->       
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="portfolioabout.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Enthusiastic and dedicated student seeking opportunities to apply
+                        coding and software development skills in a dynamic tech
+                        environment. Eager to contribute to innovative projects through
+                        collaborative problem-solving and a passion for technology.</p>
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Extra-C Activities')">Extra-C Activities</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C, C++</span><br>Programming languages</li>
+                            <li><span>HTML, CSS, JS</span><br>Web development</li>
+                            <li><span>MySQL</span><br>Database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Extra-C Activities">
+                        <ul>
+                            <li><span>Participated in CODEFURY6.0</span><br>Organised by IEEE UVCE.</li>
+                            <li><span>Volunteer: Inspiron22.0 (Annual Technical Fest) </span><br>Organised by UVCE</li>
+                            <li><span>Fractured pixels</span><br>College level webpage designing event.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br><b>B. Tech</b> at University of Visvesvaraya College of Engineering, Banglore.</li>
+                            <li><span>2021</span><br><b>12th</b> at KLE Independent PU College.</li>
+                            <li><span>2019</span><br><b>10th</b> at JNV, Chitradurga.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!--------------services-------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <h2>Bank management system</h2>
+                    <p>Developed a comprehensive Bank Management System to manage customer accounts, transactions, and banking operations efficiently.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Library management system</h2>
+                    <p>Developed a robust Library Management System with real-time tracking and reporting using PHP for
+                        server-side processing and MySQL for database management.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>Amazon clone</h2>
+                    <p>Developed a dynamic e-commerce platform replicating Amazon's core features using only HTML, CSS, and
+                        JavaScript.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------projects------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="project1.png">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>Tic-Tac-Toe is a simple yet strategic two-player game where the objective is to align three of your marks (X or O) in a row, column, or diagonal on a 3x3 grid. </p>
+                    <a href=" https://meghana-g-n.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project4.png">
+                <div class="layer">
+                    <h3>Rock-paper-Scissor</h3>
+                    <p>Rock-Paper-Scissors is a classic hand game where two players simultaneously form one of three shapes (rock, paper, or scissors) with their hands, and the winner is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. ✊✋✌️ </p>
+                    <a href="https://meghana-g-n.github.io/Rock-Paper-Scissor/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project7.png">
+                <div class="layer">
+                    <h3>To-do-list</h3>
+                    <p>A to-do list is a simple yet powerful tool to organize tasks and manage time effectively. It helps you prioritize and track your daily activities, ensuring nothing important is overlooked.</p>
+                    <a href=" https://meghana-g-n.github.io/To-do-list/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<hr>
+<!-------------------contact----------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <h4 class="suggestion">If you have any questions or just want to say hi,
+                    please feel free to contact me.<h4>
+                <p class="gmail"><i class="fa-solid fa-envelope"></i>meghana.nagaraj766@gmail.com</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61562422275561&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/meghna__nagaraj?igsh=YzBuaHdpYTZnYXRw" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/meghana-g-n-a941bb301" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Meghana-G-N" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="Meghana_G_N_ECE_U03NM21T043041.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea type="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Meghana G N. All rights reserved</p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+        /*im adding*/
+
+        const menuButton = document.querySelector('nav .fa-solid');
+const body = document.body;
+
+menuButton.addEventListener('click', function() {
+    if (body.classList.contains('menu-open')) {
+        body.classList.remove('menu-open'); // Close menu
+    } else {
+        body.classList.add('menu-open'); // Open menu
+    }
+});
+
+
+
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbytMyGg7__dwxifICaRHjqjz0Xub4jNA6QQm00Dybw80tiRwSDpvIKke91Pt8lgsTFe/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
